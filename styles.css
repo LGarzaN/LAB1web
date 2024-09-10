@@ -80,3 +80,60 @@ nav {
     align-items: center;
     padding-left: 0.2cm;
 }
+
+#section2box {
+    color: black;
+    height: 1.3cm;
+    width: 10cm;
+}
+
+#section2align {
+    height: 5cm;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section2 {
+    margin-top: 0.3cm;
+    background-color: #9c7d3e;
+    color: white;
+    height: 6cm;
+    width: 24%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+#section2boxitem1 {
+    background-color: #714545;
+    color: white;
+    height: 0.5cm;
+    width: 3cm;
+    display: flex;
+    align-items: center;
+    padding-left: 0.2cm;
+    font-weight: bold;
+    font-size: small;
+}
+
+#section2boxitem2 {
+    background-color: #b7b6b6;
+    font-weight: bold;
+    font-size: small;
+    height: 0.8cm;
+    width: 6cm;
+    display: flex;
+    align-items: center;
+    padding-left: 0.2cm;
+}
+
+#section3 {
+    margin-top: 0.3cm;
+    background-color: #9c7d3e;
+    color: white;
+    padding: 0.5cm;
+    height: 5cm;
+    width: 40%;
+}
