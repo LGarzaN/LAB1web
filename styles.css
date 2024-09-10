@@ -1,9 +1,40 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #d1c182;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-bottom: 1cm;
+    padding-top: 0.5cm;
     
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+nav {
+    color: rgb(0, 0, 0);
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav1 {
+    padding-bottom: 0.2cm;
+    color:black;
+}
+
+#nav2 {
+    background-color: #b7b6b6;
+    color: white;
+    padding: 0.2cm;
+}
+
+#logo {
+    height: 2cm;
+    width: 3cm;
 }
