@@ -35,6 +35,9 @@ nav {
     background-color: #b7b6b6;
     color: white;
     padding: 0.2cm;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 #logo {
@@ -88,8 +91,8 @@ nav {
 }
 
 #section2align {
-    height: 5cm;
-    width: 100%;
+    height: 10cm;
+    width: 103%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -104,6 +107,18 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+}
+
+
+
+.section2v2 {
+    margin-top: 0.3cm;
+    background-color: #4769c0;
+    color: white;
+    height: 6cm;
+    width: 21%;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
 }
 
 #section2boxitem1 {
@@ -123,7 +138,7 @@ nav {
     font-weight: bold;
     font-size: small;
     height: 0.8cm;
-    width: 6cm;
+    width: 8cm;
     display: flex;
     align-items: center;
     padding-left: 0.2cm;
@@ -133,7 +148,53 @@ nav {
     margin-top: 0.3cm;
     background-color: #9c7d3e;
     color: white;
-    padding: 0.5cm;
-    height: 5cm;
-    width: 40%;
+    height: 6cm;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#unoList {
+    margin-left: -0.5cm;
+    margin-bottom: 1cm;
+}
+
+#bottomDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#section3div1 {
+    width: 50%;
+
+}
+
+#section3div2 {
+    width: 50%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#section4 {
+    height: 6cm;
+    width: 103%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -3.3cm;
+}
+
+.section4outer {
+    width: 24%;
+    height: 100%;
+    background-color: white;
+}
+
+#section4inner {
+    width: 50%;
+    height: 100%;
+    background-color: #9c7d3e;
 }
