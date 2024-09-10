@@ -3,8 +3,8 @@ body {
     background-color: #d1c182;
     margin: 0;
     padding: 0;
-    padding-left: 3cm;
-    padding-right: 3cm;
+    padding-left: 3.5cm;
+    padding-right: 3.5cm;
     padding-bottom: 1cm;
     padding-top: 0.5cm;
     
@@ -15,8 +15,11 @@ a {
     color: inherit
 }
 
+#navSearch {
+    height: 0.6cm;
+}
+
 nav {
-    color: rgb(0, 0, 0);
     text-align: right;
     display: flex;
     flex-direction: row;
@@ -37,4 +40,43 @@ nav {
 #logo {
     height: 2cm;
     width: 3cm;
+}
+
+#section1 {
+    margin-top: 1cm;
+    background-color: #9c7d3e;
+    color: white;
+    padding: 0.5cm;
+    height: 3.5cm;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+#section1box {
+    color: black;
+    height: 1.3cm;
+    width: 10cm;
+}
+
+#section1boxitem1 {
+    background-color: #714545;
+    color: white;
+    height: 50%;
+    width: 3cm;
+    display: flex;
+    align-items: center;
+    padding-left: 0.2cm;
+    font-weight: bold;
+}
+
+#section1boxitem2 {
+    background-color: #b7b6b6;
+    font-weight: bold;
+    height: 50%;
+    width: 11cm;
+    display: flex;
+    align-items: center;
+    padding-left: 0.2cm;
 }
