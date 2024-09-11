@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d1c182;
+    background-color: #9f9696;
     margin: 0;
     padding: 0;
     padding-left: 3.5cm;
@@ -117,7 +117,7 @@ nav {
     align-items: end;
     background-size: cover;
     background-position: center;
-    background-image: url('Media/photo1.tiff');
+    background-image: url('Media/Food.jpg');
 }
 
 #section2align {
@@ -187,6 +187,9 @@ nav {
 
 #section3div1 {
     width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('Media/IconNews.png');
 }
 
 #section3div2 {
@@ -214,6 +217,9 @@ nav {
     width: 50%;
     height: 100%;
     background-color: #9c7d3e;
+    background-size: cover;
+    background-position: center;
+    background-image: url('Media/Table.png');
 }
 
 video {
