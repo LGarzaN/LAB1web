@@ -160,6 +160,15 @@ nav {
     flex-direction: row;
 }
 
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 0.4cm solid transparent;
+	border-right: 0.5cm solid whitesmoke;
+	border-bottom: 0.4cm solid transparent;
+    margin-top: 3cm;
+}
+
 #unoList {
     margin-left: -0.5cm;
     margin-bottom: 1cm;
