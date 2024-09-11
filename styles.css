@@ -24,6 +24,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 103%;
 }
 
 #nav1 {
@@ -57,7 +58,7 @@ nav {
     background-color: #9c7d3e;
     color: white;
     padding: 0.5cm;
-    height: 3.5cm;
+    height: 3.5cm;  
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -166,7 +167,6 @@ nav {
 
 #section3div1 {
     width: 50%;
-
 }
 
 #section3div2 {
