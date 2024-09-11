@@ -115,6 +115,9 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+    background-size: cover;
+    background-position: center;
+    background-image: url('Media/photo1.tiff');
 }
 
 #section2align {
