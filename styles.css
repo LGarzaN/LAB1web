@@ -50,7 +50,6 @@ nav {
 #navShare {
     height: 0.4cm;
     margin-bottom: -0.5;
-
 }
 
 #section1 {
@@ -63,7 +62,12 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: end;
+    margin-bottom: 0.08cm;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out; /* Optional smooth transition */
 }
+
 
 #section1box {
     color: black;
@@ -144,7 +148,7 @@ nav {
     font-weight: bold;
     font-size: small;
     height: 0.8cm;
-    width: 8cm;
+    width: 97.5%;
     display: flex;
     align-items: center;
     padding-left: 0.2cm;
@@ -190,7 +194,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: -3.3cm;
+    margin-top: -3.33cm;
 }
 
 .section4outer {
@@ -207,4 +211,10 @@ nav {
 
 video {
     object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+#news-image {
+
 }
