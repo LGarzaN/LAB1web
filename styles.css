@@ -54,10 +54,9 @@ nav {
 
 #section1 {
     margin-top: 1cm;
-    background-color: #9c7d3e;
     color: white;
     padding: 0.5cm;
-    height: 3.5cm;  
+    height: 5cm;  
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -66,34 +65,39 @@ nav {
     background-size: cover;
     background-position: center;
     transition: background-image 0.5s ease-in-out; /* Optional smooth transition */
+    background-image: url('Media/News/Banana.png');
 }
 
 
 #section1box {
     color: black;
-    height: 1.3cm;
+    height: 1.5cm;
     width: 10cm;
 }
 
 #section1boxitem1 {
     background-color: #714545;
     color: white;
-    height: 50%;
+    height: 40%;
     width: 3cm;
     display: flex;
     align-items: center;
     padding-left: 0.2cm;
     font-weight: bold;
+    font-size: small;
 }
 
 #section1boxitem2 {
     background-color: #b7b6b6;
     font-weight: bold;
-    height: 50%;
+    min-height: 50%;
+    max-height: 100%;
     width: 11cm;
     display: flex;
     align-items: center;
     padding-left: 0.2cm;
+    padding-top: 0.1cm;
+    padding-bottom: 0.1cm;
 }
 
 #section2box {

@@ -1,40 +1,39 @@
 const news = [
     {
         title: "McDonald's and Crocs Are Reportedly Teaming Up to Bring You the Cutest Happy Meal Ever",
-        author: "",
-        image: ""
+        author: "Marnie Shure",
+        image: "mcDs.png"
     },
     {
         title: "Check Your Fridge: Eggs Recalled in 6 States Over Salmonella Fears, With 65 People Falling Ill",
-        author: "",
-        image: ""
+        author: "Stacey Leasca",
+        image: "Egg.png"
     },
     {
-        title: "DoorDash and Magnolia Are Releasing an Exclusive New Banana Pudding Flavor — and It's Available Nationwide",
-        author: "",
-        image: ""
+        title: "DoorDash and Magnolia Are Releasing an Exclusive New Banana Pudding Flavor",
+        author: "Stacey Leasca",
+        image: "Banana.png"
     }
 ]
 
-const section = document.querySelector('section1');
+const section = document.querySelector('#section1');
 
-const title = document.querySelector('#news-title');
+const title = document.querySelector('#section1boxitem2');
 
-const author = document.querySelector('#news-author');
+const author = document.querySelector('#section1boxitem1');
 
 let index = 0
 
 function changeNews() {
     title.textContent = news[index].title;
     author.textContent = news[index].author;
-    section.style.backgroundImage = `url(${news[index].image})`;
+    document.getElementById('section1').style.backgroundImage = `url(Media/News/${news[index].image})`;
 
-    if (index < news.length - 1) {
-        index++;
-    } else {
+    index++;
+    if (index === news.length) {
         index = 0;
     }
 }
 
-setInterval(changeNews, 3000);
+setInterval(changeNews, 7000);
 
