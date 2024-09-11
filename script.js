@@ -2,17 +2,17 @@ const news = [
     {
         title: "McDonald's and Crocs Are Reportedly Teaming Up to Bring You the Cutest Happy Meal Ever",
         author: "Marnie Shure",
-        image: "mcDs.png"
+        image: "pancakes.png"
     },
     {
         title: "Check Your Fridge: Eggs Recalled in 6 States Over Salmonella Fears, With 65 People Falling Ill",
         author: "Stacey Leasca",
-        image: "Egg.png"
+        image: "sandwich.png"
     },
     {
         title: "DoorDash and Magnolia Are Releasing an Exclusive New Banana Pudding Flavor",
         author: "Stacey Leasca",
-        image: "Banana.png"
+        image: "yogurt.png"
     }
 ]
 
