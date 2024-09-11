@@ -219,6 +219,8 @@ video {
     height: 100%;
 }
 
-#news-image {
-
+#bottomDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
