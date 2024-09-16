@@ -15,7 +15,7 @@ a {
     color: inherit
 }
 
-#navSearch {
+.navSearch {
     height: 0.6cm;
 }
 
@@ -27,12 +27,12 @@ nav {
     width: 103%;
 }
 
-#nav1 {
+.nav1 {
     padding-bottom: 0.2cm;
     color:black;
 }
 
-#nav2 {
+.nav2 {
     background-color: #b7b6b6;
     color: white;
     padding: 0.2cm;
@@ -41,13 +41,13 @@ nav {
     flex-direction: row;
 }
 
-#logo {
+.logo {
     height: 2.5cm;
     width: 2.5cm;
     border-radius: 100%;
 }
 
-#navShare {
+.navShare {
     height: 0.4cm;
     margin-bottom: -0.5;
 }
@@ -100,27 +100,7 @@ nav {
     padding-bottom: 0.1cm;
 }
 
-#section2box {
-    color: black;
-    height: 1.3cm;
-    width: 10cm;
-}
-
-.section2 {
-    margin-top: 0.3cm;
-    background-color: #9c7d3e;
-    color: white;
-    height: 6cm;
-    width: 24%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-    background-size: cover;
-    background-position: center;
-    background-image: url('Media/Body/grapes.png');
-}
-
-#section2align {
+#section2 {
     height: 10cm;
     width: 103%;
     display: flex;
@@ -128,14 +108,32 @@ nav {
     justify-content: space-between;
 }
 
-.section2v2 {
+.section2box {
     margin-top: 0.3cm;
-    background-color: #4769c0;
     color: white;
     height: 6cm;
     width: 21%;
     padding-left: 0.5cm;
     padding-right: 0.5cm;
+}
+
+#section2box1 {
+    background-color: #4769c0;
+}
+
+#unoList {
+    margin-left: -0.5cm;
+    margin-bottom: 1cm;
+}
+
+#section2box2 {
+    background-color: #9c7d3e;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    background-size: cover;
+    background-position: center;
+    background-image: url('Media/Body/grapes.png');
 }
 
 #section2boxitem1 {
@@ -161,38 +159,52 @@ nav {
     padding-left: 0.2cm;
 }
 
-#section3 {
-    margin-top: 0.3cm;
-    background-color: #9c7d3e;
-    color: white;
-    height: 6cm;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-}
-
-.triangle-left {
-	width: 0;
-	height: 0;
-	border-top: 0.4cm solid transparent;
-	border-right: 0.5cm solid whitesmoke;
-	border-bottom: 0.4cm solid transparent;
-    margin-top: 3cm;
-}
-
-#unoList {
-    margin-left: -0.5cm;
-    margin-bottom: 1cm;
-}
-
-#section3div1 {
-    width: 50%;
+#section2box3 {
     background-size: cover;
     background-position: center;
     background-image: url('Media/Body/pasta.png');
+    padding-right: -1cm;
 }
 
-#section4 {
+#section2box4 {
+    background-color: white;
+    padding-right: -1cm;
+}
+
+.triangle-left {
+    position: absolute; 
+    top: 0; 
+    left: 0cm;
+	width: 0;
+	height: 0;
+	border-top: 0.4cm solid transparent;
+	border-right: 0.5cm solid blueviolet;
+	border-bottom: 0.4cm solid transparent;
+    margin-top: 3cm;
+    z-index: 10;
+    transition: opacity 0.3s;
+}
+
+.grow {
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    overflow: hidden;
+    transition: 1.5s;
+    width: 50%;
+    background-color: whitesmoke;
+    text-align: center;
+    z-index: 1;
+    position: relative; 
+  }
+  .grow:hover {
+    width: 1000%;
+  }
+  .grow:hover + .triangle-left {
+    opacity: 0;
+}
+
+#section3 {
     height: 6cm;
     width: 103%;
     display: flex;
@@ -201,14 +213,14 @@ nav {
     margin-top: -3.33cm;
 }
 
-.section4outer {
+.section3outer {
     width: 24%;
     height: 100%;
     background-color: white;
     overflow-y: auto;
 }
 
-#section4inner {
+#section3inner {
     width: 50%;
     height: 100%;
     background-color: #9c7d3e;
@@ -228,17 +240,3 @@ video {
     flex-direction: row;
     justify-content: space-evenly;
 }
-
-.grow {
-    position: relative;
-    transition: height 0.5s;
-    -webkit-transition: height 0.5s;
-    overflow: hidden;
-    transition: 1.5s;
-    width: 50%;
-    background-color: whitesmoke;
-    text-align: center;
-  }
-  .grow:hover {
-    width: 1000%;
-  }
