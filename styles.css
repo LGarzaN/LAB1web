@@ -104,8 +104,6 @@ nav {
     height: 10cm;
     width: 103%;
     display: flex;
-    flex-direction: row;
-    position: relative;
 }
 
 .section2box {
@@ -115,7 +113,6 @@ nav {
     width: 25%;
     padding-left: 0.5cm;
     padding-right: 0.5cm;
-    box-sizing: border-box;
 }
 
 #section2box1 {
@@ -136,7 +133,6 @@ nav {
     background-size: cover;
     background-position: center;
     background-image: url('Media/Body/grapes.png');
-    box-sizing: border-box;
     margin-right: 0.5cm;
 }
 
@@ -167,14 +163,11 @@ nav {
     background-size: cover;
     background-position: center;
     background-image: url('Media/Body/pasta.png');
-    transition: opacity 0.5s; 
-    height: 6cm;
 }
 
 #section2box4 {
     background-color: white;
     transition: width 0.5s, height 0.5s; 
-    box-sizing: border-box;
 }
 
 .triangle {
@@ -184,12 +177,12 @@ nav {
     border-bottom: 0.6cm solid transparent; 
     border-right: 0.6cm solid white; 
     position: absolute;
-    right: 8.9cm;
-    top: 3cm; 
+    right: 11.3cm;
+    top: 13cm;
   }
 
 #section2box4:hover {
-    width: calc(100% - 41%);
+    width: 90%;
     height: 6cm; 
 }
 
