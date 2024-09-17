@@ -105,20 +105,22 @@ nav {
     width: 103%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    position: relative;
 }
 
 .section2box {
     margin-top: 0.3cm;
     color: white;
     height: 6cm;
-    width: 21%;
+    width: 25%;
     padding-left: 0.5cm;
     padding-right: 0.5cm;
+    box-sizing: border-box;
 }
 
 #section2box1 {
     background-color: #4769c0;
+    margin-right: 0.5cm;
 }
 
 #unoList {
@@ -134,6 +136,8 @@ nav {
     background-size: cover;
     background-position: center;
     background-image: url('Media/Body/grapes.png');
+    box-sizing: border-box;
+    margin-right: 0.5cm;
 }
 
 #section2boxitem1 {
@@ -156,52 +160,40 @@ nav {
     width: 97.5%;
     display: flex;
     align-items: center;
-    padding-left: 0.2cm;
 }
 
 #section2box3 {
     background-size: cover;
     background-position: center;
     background-image: url('Media/Body/pasta.png');
-    padding-right: -1cm;
+    transition: opacity 0.5s; 
+    height: 6cm;
 }
 
 #section2box4 {
     background-color: white;
-    padding-right: -1cm;
+    transition: width 0.5s, height 0.5s; 
+    box-sizing: border-box;
 }
 
-.triangle-left {
-    position: absolute; 
-    top: 0; 
-    left: 0cm;
-	width: 0;
-	height: 0;
-	border-top: 0.4cm solid transparent;
-	border-right: 0.5cm solid blueviolet;
-	border-bottom: 0.4cm solid transparent;
-    margin-top: 3cm;
-    z-index: 10;
-    transition: opacity 0.3s;
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-top: 0.6cm solid transparent;
+    border-bottom: 0.6cm solid transparent; 
+    border-right: 0.6cm solid white; 
+    position: absolute;
+    right: 8.9cm;
+    top: 3cm; 
+  }
+
+#section2box4:hover {
+    width: calc(100% - 41%);
+    height: 6cm; 
 }
 
-.grow {
-    position: relative;
-    transition: height 0.5s;
-    -webkit-transition: height 0.5s;
-    overflow: hidden;
-    transition: 1.5s;
-    width: 50%;
-    background-color: whitesmoke;
-    text-align: center;
-    z-index: 1;
-    position: relative; 
-  }
-  .grow:hover {
-    width: 1000%;
-  }
-  .grow:hover + .triangle-left {
-    opacity: 0;
+#section2box4:hover .triangle {
+    display: none;
 }
 
 #section3 {
