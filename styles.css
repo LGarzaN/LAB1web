@@ -128,8 +128,9 @@ nav {
 #section2box2 {
     background-color: #9c7d3e;
     display: flex;
-    justify-content: flex-start;
-    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
     background-size: cover;
     background-position: center;
     background-image: url('Media/Body/grapes.png');
@@ -146,6 +147,7 @@ nav {
     padding-left: 0.2cm;
     font-weight: bold;
     font-size: small;
+    margin-left: -0.5cm;
 }
 
 #section2boxitem2 {
@@ -157,6 +159,7 @@ nav {
     display: flex;
     align-items: center;
     padding-left: 0.2cm;
+    margin-left: -0.5cm;
 }
 
 #section2box3 {
@@ -170,12 +173,60 @@ nav {
     transition: width 0.5s, height 0.5s; 
 }
 
+#section2half {
+    margin-top: 0.3cm;
+    height: 6cm;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #9c7d3e;
+}
+
+#section2halfitem1 {
+    background-color: #714545;
+    color: white;
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('Media/Body/pasta.png');
+}
+
+#section2halfitem2 {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 50%;
+    z-index: 20;
+}
+
+#section2halfitem1, #section2halfitem2 {
+    transition: width 1s ;
+    height: 100%;
+    width: 50%;
+}
+
+#section2halfitem2:hover {
+    width: 500%;
+}
+
+#section2halfitem2:hover .triangle {
+    /*move triangle to the left */
+    transform: translate(-1075%);
+}
+
+#section2halfitem2 .triangle {
+    /* initial state of the triangle */
+    transform: translate(0);
+    transition: transform 0.7s;
+}
+
 .triangle {
     width: 0; 
     height: 0; 
     border-top: 0.6cm solid transparent;
-    border-bottom: 0.6cm solid transparent; 
-    border-right: 0.6cm solid white; 
+    border-bottom: 0.6cm solid transparent;
+    border-right: 0.6cm solid whitesmoke;
     position: absolute;
     right: 10.3cm;
     top: 13cm;
