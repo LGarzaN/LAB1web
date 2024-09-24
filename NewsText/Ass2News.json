@@ -1,19 +1,35 @@
 {
     "news":[
         {
-            "title":"SpaceX's Next Starship Prototype Taking Shape ", 
-            "imgurl":"https://images.app.goo.gl/vhxm8eBqYgH8N6gN8",
-            "content":"Construction of the test craft is proceeding apace, as two new photos posted on Twitter today (Sept. 17) by company founder and CEO Elon Musk reveal."
+            "title":"This Massively Popular Milk Brand Was Just Recalled in 27 States — Here's What You Need to Know ", 
+            "imgurl":"https://www.foodandwine.com/thmb/bCkeuSVmXscJQPE4N_YfGJc9Ds8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Lactaid-Recall-FT-BLOG0924-244d9d5fbfc54eb080a9c25cf5a83fa2.jpg",
+            "content":"A popular alternative milk is being recalled across the nation as it may contain an undeclared allergen."
         },
         {
-            "title":"NASA's Juno Mission Cheks Out Eclipse on Jupiter", 
-            "imgurl":"https://images.app.goo.gl/WYt4Dhbf9V2WBdbF7",
-            "content":"All is well on our largest neighbor; NASA's Juno spacecraft just managed to spot the shadow of Jupiter's moon, Io, passing over its marbled clouds."
+            "title":"All the Places You Can Get Free Coffee This Weekend for National Coffee Day", 
+            "imgurl":"https://www.foodandwine.com/thmb/GyS6A-9rqLKQcGeogXeHH8SAREo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Coffee-Deals-FT-BLOG0924-76422c77fe544c7ba3ba06223a8fe098.jpg",
+            "content":"Love a good caffeine boost? Then mark your calendar for Sunday, September 29, because that's when we'll all get to stop and celebrate National Coffee Day."
         },
         {
-            "title":"Europe Wants Ideas for Cave-Spelumking Moon Robots", 
-            "imgurl":"https://images.app.goo.gl/uWGrJP2fSCoTwV9u6",
-            "content":"As NASA makes a big push to land humans on the moon's surface by 2024, the European Space Agency (ESA) wants to learn more about the lunar caves that lie beneath."
+            "title":"Taco Bell Has an All-New Hot Sauce — and It's Omar Apollo's Top-Secret Family Recipe", 
+            "imgurl":"https://www.foodandwine.com/thmb/eN1YZnr2xlrx_04JaQINdqO3RUQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Taco-Bell-x-Omar-Apollo-Disha-Hot-Sauce-FT-BLOG0924-02-01f4274960ea4109a1b7e76fb2813604.jpg",
+            "content":"Taco Bell is bringing fans a brand-new sauce. Though it isn't doing it alone."
+        },
+        {
+            "title":"Scientists Developed a New Lettuce That Has 30 Times More Vitamin A ", 
+            "imgurl":"https://www.foodandwine.com/thmb/9ZFSDgiZSyZk42RjQig04JA_5-A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Golden-Lettuce-Explainer-FT-BLOG0924-01-6da63c64ede946289b132e046e3fc089.jpg",
+            "content":"The work 'represents a very significant advance for improving nutrition through biofortification of vegetables such as lettuce, chard or spinach.'"
+        },
+        {
+            "title":"Krispy Kreme Just Brought Back a Fan-Favorite Fall Doughnut", 
+            "imgurl":"https://www.foodandwine.com/thmb/q5doo8bH5I4hpMloVgigibk-Bg0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Krispy-Kreme-Brings-Back-the-Pumpkin-Spice-Original-Glazed-Doughnut-FT-BLOG0924-382b3186c6dc4aeaa426fd6e032eadb7.jpg",
+            "content":"Just a few short days ago, Krispy Kreme unveiled its new fall lineup of doughnuts with the Golden Harvest collection. And somehow, this wasn't enough for the doughnut brand."
+        },
+        {
+            "title":"Uncrustables Just Launched a New Flavor for the First Time in 10 Years — and It's a Winner", 
+            "imgurl":"https://www.foodandwine.com/thmb/omtMDb3nVboyN2GFDTQ2WUJ9Cg8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Uncrustables-Launches-First-New-Flavor-in-10-Years-FT-BLOG0924-04-bc7d4d598264412da9ad30aa3d07bfb1.jpg",
+            "content":"There’s nothing quite like chowing down on a classic Peanut Butter and Jelly Sandwich — especially as an afternoon snack. And now, for the first time in a decade, Uncrustables fans have a new PB&J flavor to take out for a spin: Peanut Butter and Raspberry Spread."
         }
+        
         ]
 }
